@@ -2,7 +2,7 @@ final float X_HEIGHT = 60;
 
 // ------ mouse interaction ------
 int offsetX = 0, offsetY = 0, clickX = 0, clickY = 0, zoom = -100;
-float rotationX = 0, rotationY = 0/2, targetRotationX = 0, targetRotationY = 0/2, clickRotationX, clickRotationY; 
+float rotationX = 0, rotationY = PI/2, targetRotationX = 0, targetRotationY = PI/2, clickRotationX, clickRotationY; 
 
 float spaceSizeX = X_HEIGHT * 8, spaceSizeY = X_HEIGHT * 6, spaceSizeZ = X_HEIGHT * 8;
 float distance = 16;
